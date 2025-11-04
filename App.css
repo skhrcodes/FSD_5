@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+.navbar {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+form {
+  display: flex;
+  margin-bottom: 15px;
+}
+input {
+  flex: 1;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: white;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
